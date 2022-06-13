@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "request": "^2.88.2"
+  },
+  "name": "weather-web-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmihal/Weather-Web-App.git"
+  },
+  "author": "John Mihal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnmihal/Weather-Web-App/issues"
+  },
+  "homepage": "https://github.com/johnmihal/Weather-Web-App#readme",
+  "description": ""
+}
