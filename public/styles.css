@@ -1,3 +1,75 @@
-*{
-    outline: hotpink solid 1px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: beige;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("https://source.unsplash.com/1600x900/?beach") ;
 }
+
+.container {
+    background: #000000d0;
+    color:white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+button{
+    margin-left: 20px;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background-color: #7c7c7c2b;
+    color: white;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+input.search-bar{
+    border:none;
+    outline: none;
+    padding: .5em ;
+
+    border-radius: 23px;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+
+    margin: 0;
+
+}
+
+h1.temperature{
+    margin: 0;
+    margin-bottom: .4em;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
