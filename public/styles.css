@@ -6,10 +6,10 @@ body {
     margin: 0;
     background: beige;
     font-family: 'Open Sans', sans-serif;
-    
+    background-size: cover;
 }
 
-.container {
+.content {
     background: #000000d0;
     color:white;
     padding: 2em;
@@ -88,3 +88,15 @@ h1.temperature{
     left: 20px;
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+    font-size: .7em;
+}
