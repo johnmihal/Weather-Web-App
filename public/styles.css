@@ -6,7 +6,7 @@ body {
     margin: 0;
     background: beige;
     font-family: 'Open Sans', sans-serif;
-    background-image: url("https://source.unsplash.com/1600x900/?beach") ;
+    
 }
 
 .container {
@@ -71,5 +71,20 @@ h1.temperature{
 .flex{
     display: flex;
     align-items: center;
+}
+
+.weather.loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading::after{
+    visibility:  visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top:0;
+    left: 20px;
 }
 

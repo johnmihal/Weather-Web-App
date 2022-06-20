@@ -20,6 +20,8 @@ let weather = {
         document.querySelector('.temperature').innerText = temp + '°F';
         document.querySelector('.humidity').innerText = "Humidity: " + humidity + "%";
         document.querySelector('.wind').innerText = 'Wind Speed: ' + speed + ' mph';
+        document.querySelector('.weather').classList.remove("loading")
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";
     },
     search: function() {
         this.fetchWeather(document.querySelector('.search-bar').value);
@@ -36,3 +38,4 @@ document.querySelector(".search-bar").addEventListener("keyup", function (event)
     }
 });
 
+weather.fetchWeather("San Francisco, USA");
